@@ -3,7 +3,7 @@ const birthdayPerson = "babyyy Gwen";
 const senderName     = "Sean";
 
 const birthdayMessage = `
-Happy 21th birthdayyyyy, my babyyyyy!! 🎂🥳
+Happy 21st birthdayyyyy, my babyyyyy!! 🎂🥳
 
 Actually, I don't know where to start since there are a lot of things I want to say to you. And no matter how long the words I write, it still won't be enough to explain how amazing you area, and how much you mean to me. I'm really happy that I get to be a part of your 21st birthday. I really hope that this won't be the only birthday I get to spend with you. I hope that in many years to come, I'll be still part of your more birthdays.
 
