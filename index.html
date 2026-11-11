@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy 21st Birthday ♡</title>
+<!-- Fonts: Google Fonts (Great Vibes, Cormorant Garamond, Quicksand). Fallbacks are set in style.css -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Great+Vibes&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="mouseGlow"></div>
+<div id="floaters"></div>
+<div id="fx"></div>
+
+<main id="home">
+  <h1 class="title">Happy <span class="n21">21<sup>st</sup></span> Birthday ♡</h1>
+  <p class="sub">I made a little something for you...</p>
+
+  <section class="scene">
+    <div class="big21" id="big21">21</div>
+    <div class="deco d2">🌸</div><div class="deco d4">🌷</div>
+
+    <div class="stage">
+      <div class="cake-wrap" id="cakeWrap">
+        <!-- ENVELOPE image (hidden behind the cake until the cake is clicked) -->
+        <img src="images/envelope.png" alt="Pink envelope" class="envelope" id="envelope">
+        <div class="cake-glow"></div>
+        <!-- CAKE image -->
+        <img src="images/cake.png" alt="Birthday cake" class="cake" id="cake" tabindex="0" role="button" aria-label="Click the cake">
+        <div class="flames" id="flames"><i></i><i></i><i></i></div>
+      </div>
+
+      <div class="penguin-wrap" id="penguinWrap">
+        <div class="bubble" id="bubble">Happy Birthday! ♡</div>
+        <div class="hat"></div>
+        <!-- PENGUIN image -->
+        <img src="images/penguin.png" alt="Pixel penguin" class="penguin" id="penguin" tabindex="0" role="button">
+      </div>
+    </div>
+    <p class="hint" id="hint">Click the cake ♡</p>
+    <p class="hint hidden" id="hint2">Tap the envelope ♡<br><small>For the birthday girl</small></p>
+  </section>
+</main>
+
+<!-- LETTER -->
+<div class="overlay" id="letterOverlay" aria-hidden="true">
+  <div class="letter-scroll">
+    <article class="letter" id="letter">
+      <span class="badge21">21</span>
+      <span class="fl f1">🌸</span><span class="fl f2">✿</span><span class="fl f3">♡</span>
+      <div class="paper">
+        <h2 class="script">A Little Letter For You ♡</h2>
+        <p class="dear" id="dear"></p>
+        <div class="body" id="letterBody"></div>
+        <p class="closing script">Happy 21st Birthday ♡</p>
+        <p class="from" id="from"></p>
+      </div>
+    </article>
+
+    <div class="actions">
+      <button class="btn" id="moreBtn">One More Thing ♡</button>
+    </div>
+
+    <article class="letter final-card hidden" id="finalCard">
+      <div class="paper row">
+        <img src="images/penguin.png" alt="Penguin" class="penguin mini" id="penguin2">
+        <div>
+          
+          <div class="body" id="finalBody"></div>
+          
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
